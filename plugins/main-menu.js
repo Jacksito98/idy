@@ -37,8 +37,8 @@ const defaultMenu = {
 ─────────────
 ▢ Sigueme en instagram 
 • instagram.com/Jack_paymon
-es un bot en proceso de programacio
-todavia cualquier error comunicar al owner.
+Bot en proceso de programacion 
+cualquier error comunicar al owner :D 
 ─────────────
 %readmore
 Ⓟ = Premium
