@@ -4,11 +4,11 @@ import { fileURLToPath } from 'url'
 
 global.owner = [
   ['18295176783', 'FG98', true],
-  ['5492622271736'], 
-  ['5492622271736'] 
+  ['1809995999'], 
+  ['68987787777'] 
 ] //Numeros de owner 
 
-global.mods = ['573125484672'] 
+global.mods = ['529983385229'] 
 global.prems = ['50489079501', '5219631769130', '573125484672']
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -25,13 +25,13 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'DyLux┃ᴮᴼᵀ' 
-global.author = '@fg98' 
-global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
-global.dygp = 'https://chat.whatsapp.com/IO9jmpI72ejHiN4unRZleU'
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
+global.packname = 'idy┃ᴮᴼᵀ' 
+global.author = '@Jack_paymon' 
+global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/Jack_paymon\n' 
+global.dygp = 'https://chat.whatsapp.com/FLnMCO1opLD8QU1lJiZMKj'
+global.fgsc = 'https://github.com' 
+global.fgyt = 'https://youtube.com'
+global.fgpyp = 'https://paypal.me'
 global.fglog = 'https://i.imgur.com/Owmb93c.png' 
 
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
