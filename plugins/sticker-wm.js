@@ -22,6 +22,6 @@ let handler = async (m, { conn, text, args }) => {
 }
 handler.help = ['take <nombre>|<autor>']
 handler.tags = ['sticker']
-handler.command = ['take', 'robar'] 
+handler.command = ['take', 'wm'] 
 
 export default handler
