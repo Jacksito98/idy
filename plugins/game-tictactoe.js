@@ -59,7 +59,7 @@ ${arr.slice(6).join('')}
      conn.reply(m.chat, `⏳ *Esperando pareja*\nEscriba el siguiente comando para aceptar
 ▢ *${usedPrefix + command} ${text}*
 
-🎁 Recompensa: *1000 XP*`, m, {
+🎁 Recompensa: *500 XP*`, m, {
             mentions: conn.parseMention(text)
         })
         
