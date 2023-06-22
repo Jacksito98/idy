@@ -36,8 +36,9 @@ ${arr.slice(6).join('')}
 ▢ *SALA ID* ${room.id}
 
 ▢ *Reglas*
-‣ Haz 3 filas de símbolos verticales, horizontales o diagonales para ganar
+‣ Haz 3 filas de símbolos verticales, horizontales o diagonales para ganar.
 ‣ Escribe *surrender* para salir del juego y ser declarado derrotado.
+‣ Si Abusas del comando se te baneara automaticamente.
 `.trim()
         if (room.x !== room.o) await conn.reply(room.x, str, m, {
             mentions: conn.parseMention(str)
