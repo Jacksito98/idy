@@ -7,6 +7,8 @@ try {
 await conn.groupParticipantsUpdate(m.chat, [m.sender], "promote")
 } catch {
 await m.reply('*[❗] Error, no es posible darle admin*')}}
+handler.help = ['autoadmin']
+handler.tags = ['owner']
 handler.command = /^autoadmin$/i
 handler.rowner = true
 handler.group = true
