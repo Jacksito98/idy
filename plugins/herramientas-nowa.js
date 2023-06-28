@@ -19,6 +19,8 @@ array.push({ exists: false, jid: result })
 let txt = 'Registrados\n\n' + array.filter(v => v.exists).map(v => `• Nro: wa.me/${v.jid.split('@')[0]}\n*• Bio:* ${v.status || 'Sin descripcion'}\n*• Fecha:* ${formatDate(v.setAt)}`).join('\n\n') + '\n\n*No registrados*\n\n' + array.filter(v => !v.exists).map(v => v.jid.split('@')[0]).join('\n')
 m.reply(txt)
 }
+handler.help = ['nowa']
+handler.tags = ['tools']
 handler.command = /^nowa$/i
 export default handler
 function formatDate(n, locale = 'id') {
