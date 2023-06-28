@@ -26,7 +26,6 @@ ${translation_en}
 }
 handler.help = ['frase [escribe un número 1 - 99]']
 handler.tags = ['fun']
-handler.tags = ['frase']
 handler.command = /^(frase(s)?)$/i
 export default handler
 
