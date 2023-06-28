@@ -4,7 +4,7 @@ let handler = async (m, { conn, text}) => {
 
 m.reply(`╭┄〔 *${wm}* 〕┄⊱\n┊\n *😹 ${pickRandom(global.chiste)} 😹*\n┊\n*╰━━━⊰ 𓃠 ${vs} ⊱━━━━დ*`)
 }
-handler.tags = ['humor']
+handler.tags = ['fun']
 handler.command = ['chiste']
 export default handler
 
