@@ -9,7 +9,7 @@ m.reply(`*${toM(a)}, 𝙳𝙴𝙱𝙴𝚁𝙸𝙰𝚂 𝙲𝙰𝚂𝙰𝚁𝚃�
 mentions: [a, b]
 })}
 handler.help = ['formarpareja']
-handler.tags = ['main', 'fun']
+handler.tags = ['fun']
 handler.command = ['formarpareja','formarparejas']
 handler.group = true
 export default handler
