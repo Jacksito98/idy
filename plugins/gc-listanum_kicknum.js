@@ -31,6 +31,8 @@ await delay(10000)
 } else return m.reply('*[❗] 𝙴𝚁𝚁𝙾𝚁*')}
 break            
 }}
+handler.help = ['kicknum x']
+handler.tags = ['group']
 handler.command = /^(listanum|kicknum)$/i
 handler.group = handler.botAdmin = handler.admin = true
 handler.fail = null
