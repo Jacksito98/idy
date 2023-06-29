@@ -13,6 +13,6 @@ mentions: [a, b, c],
 })}
 handler.help = ['formartrio']
 handler.tags = ['fun']
-handler.command = ['formartrio','trio']
+handler.command = ['formartrio','trio','trío']
 handler.group = true
 export default handler 
