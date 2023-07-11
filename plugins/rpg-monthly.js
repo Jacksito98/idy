@@ -75,7 +75,7 @@ user.lastmonthly = new Date * 1
 handler.help = ['mensual']
 handler.tags = ['econ']
 handler.command = ['monthly', 'cadames', 'mes', 'mensual', 'entregadelmes'] 
-handler.level = 10
+handler.level = 5
 export default handler
 
 function pickRandom(list) {
