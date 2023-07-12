@@ -68,7 +68,7 @@ error por favor reportar con el comando .report
 ° 式 ⃟🎨 .reverse
 `
 
-    let pp = './src/Menu2idy.jpg' 
+    let pp = './src/Menu2idy.gif' 
     conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
   m.react('📚')     
    
