@@ -6,8 +6,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡          <INFO DEL BOT + />
 
-let user = global.db.data.users[who]
-*💎Diamantes* : _${user.diamond}_
+
 
  👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ 
  
@@ -69,7 +68,7 @@ error por favor reportar con el comando .report
 ° 式 ⃟🎨 .reverse
 `
 
-    let pp = './src/fg_logo.jpg' 
+    let pp = './src/Menu2idy.jpg' 
     conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
   m.react('📚')     
    
