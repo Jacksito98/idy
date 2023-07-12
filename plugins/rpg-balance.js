@@ -6,8 +6,8 @@ let handler = async (m, {usedPrefix}) => {
   let db = await conn.profilePictureUrl(who, "image").catch((_) => "https://telegra.ph/file/e01c177fb1c61f453c659.jpg");
   let bank = `╭━━━━ 𝐁𝐀𝐍𝐂𝐎 🏦 ━━━╾•
 ❍ *Nombre:* ${name}
-❍ *Diamantes:* ${global.db.data.users[who].limit} 💎
-❍ *Tokens:* ${global.db.data.users[who].joincount} ☯️
+❍ *Diamantes:* ${user.diamond} 💎
+❍ *⬆️XP* : Total ${user.exp} ☯️
 ❍ *Dólares:* $${global.db.data.users[who].dolares} 💸
 ╰━━━━━━━━━━━━╾•`.trim();
   conn.sendMessage(
