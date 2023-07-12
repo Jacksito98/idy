@@ -29,11 +29,11 @@ let buttonMessage= {
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })*/
 await conn.reply(m.chat, `Hola @${m.sender.split`@`[0]} si necesitas la ayuda de mi creador porfavor escribele al privado\n*- Solo asuntos importantes -*`, false, { mentions: [m.sender] })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;ī.am/☪︎Jacksito🍃/ღᴀ;;;\nFN:ī.am/☪︎Jacksito🍃/ღᴀ\nORG:ī.am/☪︎Jacksito🍃/ღᴀ\nTITLE:\nitem1.TEL;waid=18295176783:+18295176783\nitem1.X-ABLabel:ī.am/☪︎Jacksito🍃/ღᴀ\nX-WA-BIZ-DESCRIPTION:🐱Creador oficial de IdyBot.\nX-WA-BIZ-NAME:ī.am/☪︎Jacksito🍃/ღᴀ\nEND:VCARD`
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;ī.am/☪︎Jacksito🍃/ღᴀ;;;\nFN:ī.am/☪︎Jacksito🍃/ღᴀ\nORG:ī.am/☪︎Jacksito🍃/ღᴀ\nTITLE:\nitem1.TEL;waid=12602000000:+12602000000\nitem1.X-ABLabel:ī.am/☪︎Jacksito🍃/ღᴀ\nX-WA-BIZ-DESCRIPTION:🐱Creador oficial de IdyBot.\nX-WA-BIZ-NAME:ī.am/☪︎Jacksito🍃/ღᴀ\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: 'ī.am/☪︎Jacksito🍃/ღᴀ', contacts: [{ vcard }] }}, {quoted: m})
 }
 handler.tags =['owner']
 handler.help = ['helpme']
-handler.customPrefix = /^(@18295176783)$/i
+handler.customPrefix = /^(@12602000000)$/i
 handler.command = new RegExp
 export default handler
