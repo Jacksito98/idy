@@ -72,7 +72,7 @@ _Tiene ${(o % 6e4) / 1e3} segundos para decir sus \xfaltimas palabras_
     }, o);
 };
 (handler.help = ["deathnote"]),
-  (handler.tags = ["games"]),
+  (handler.tags = ["fun"]),
   (handler.command = /^(deathnote)$/i),
   (handler.group = !0),
   (handler.admin = !0),
