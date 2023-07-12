@@ -32,8 +32,8 @@ await conn.reply(m.chat, `Hola @${m.sender.split`@`[0]} si necesitas la ayuda de
 let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;ī.am/☪︎Jacksito🍃/ღᴀ;;;\nFN:ī.am/☪︎Jacksito🍃/ღᴀ\nORG:ī.am/☪︎Jacksito🍃/ღᴀ\nTITLE:\nitem1.TEL;waid=18295176783:+18295176783\nitem1.X-ABLabel:ī.am/☪︎Jacksito🍃/ღᴀ\nX-WA-BIZ-DESCRIPTION:🐱Creador oficial de IdyBot.\nX-WA-BIZ-NAME:ī.am/☪︎Jacksito🍃/ღᴀ\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: 'ī.am/☪︎Jacksito🍃/ღᴀ', contacts: [{ vcard }] }}, {quoted: m})
 }
-handler.tags =['info']
-handler.help = ['script']
+handler.tags =['owner']
+handler.help = ['helpme']
 handler.customPrefix = /^(@18295176783)$/i
 handler.command = new RegExp
 export default handler
