@@ -7,7 +7,7 @@ Ejemplo:
 ${usedPrefix + command} Hoy muere un random :v
 `);
   if (t.length < 9) return a.reply("*[ ! ] La razon es muy corta*");
-  let s = await n.profilePictureUrl(a.sender, "image").catch((e) => "./fg_logo.jpg");
+  let s = await n.profilePictureUrl(a.sender, "image").catch((e) => "./src/fg_logo.jpg");
   var p = [];
   r.map(async (e) => {
     p.push(e.id.replace("c.us", "s.whatsapp.net"));
@@ -63,7 +63,7 @@ _Tiene ${(o % 6e4) / 1e3} segundos para decir sus \xfaltimas palabras_
                   inviteCode: "m",
                   groupName: "P",
                   caption: `C come una manzana* :v🍎`,
-                  jpegThumbnail: e.readFileSync("./fg_logo.jpg"),
+                  jpegThumbnail: e.readFileSync("./src/fg_logo.jpg"),
                 },
               },
             },
