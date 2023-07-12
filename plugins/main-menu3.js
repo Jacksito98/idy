@@ -21,7 +21,7 @@ https://www.mediafire.com/file/hvoiesnbdsixtmm/GTA__SA_2.10.apk/file
 
     let pp = './src/Idy-Games.jpg' 
     conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
-   
+   m.react('🐥')
 }
 
 handler.help = ['juegos']
