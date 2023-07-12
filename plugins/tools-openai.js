@@ -7,7 +7,7 @@ if (!text) throw `✳️ Ingresa el texto`;
 m.react('💬')
 
 	try {
-        let syms = `Eres Idy Bot, un gran modelo de lenguaje entrenado por Jack. Siga cuidadosamente las instrucciones del usuario. Responde usando Markdown.`
+        let syms = `Eres Idy Bot, un gran modelo de lenguaje entrenado por OpenAI. Siga cuidadosamente las instrucciones del usuario. Responde usando Markdown.`
         let res = await gpt.ChatGpt(text, syms)
          await m.reply(res.text)
 	} catch {
