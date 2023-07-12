@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 let handler = async function (m, { conn, text, usedPrefix }) {
   
 let m2 = `
-≡       <INFO DEL BOT + />
+≡          <INFO DEL BOT + />
 
  👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ 
  
