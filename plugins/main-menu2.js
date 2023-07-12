@@ -6,7 +6,14 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡          <INFO DEL BOT + />
 
-
+⎔ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
+⎔ *Registrados »* ${rtotalreg}/${totalreg}
+⎔ *${lenguajeGB['smsTime']()}* ➺ _${time}_    
+⎔ *${lenguajeGB['smsUptime']()}* ➺ _${uptime}_ 
+⎔ *${lenguajeGB['smsVersion']()}* ➺ _${vs}_
+⎔ *${lenguajeGB['smsMode']()} ➺* _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
+⎔ *${lenguajeGB['smsBanChats']()}* ➺ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
+⎔ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
 
  👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ 
  
