@@ -2,7 +2,7 @@
 
 let handler = async (m, { conn, text}) => {
 
-m.reply(`╭┄〔 ─✪ Chiste┃ ᴮᴼᵀ ✪── 〕┄⊱\n┊\n *😹 ${pickRandom(global.chiste)} 😹*\n┊\n*╰━━━⊰ └──✪ Dylux ┃ ᴮᴼᵀ ✪── ⊱━━━━დ*`)
+m.reply(`╭┄〔 ─✪ Chiste ✪── 〕┄⊱\n┊\n *😹 ${pickRandom(global.chiste)} 😹*\n┊\n*╰━━━⊰ idy ┃ ᴮᴼᵀ ✪── ⊱━━━━დ*`)
 }
 handler.tags = ['fun']
 handler.command = ['chiste']
