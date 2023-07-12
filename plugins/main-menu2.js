@@ -38,7 +38,7 @@ error por favor reportar con el comando .report
 
 <MENÚ SIMPLE + />
 
-° 式 ⃟🍩 .inspect
+° 式 ⃟🍩 ${usedPrefix}sopa
 ° 式 ⃟🍩 .takestick
 ° 式 ⃟🍩 .autosticker
 ° 式 ⃟🍩 .getperfil
