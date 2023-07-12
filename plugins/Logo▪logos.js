@@ -13,7 +13,7 @@ let result = await axios.get(res, {
 responseType: 'arraybuffer'
 })
 m.reply('*⏳Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ... ฅ^•ﻌ•^ฅ⏳*')
-await conn.sendFile(m.chat, result.data, 'Error.jpg', `*Aϙᴜɪ́ ᴛɪᴇɴᴇs ᴛᴜ ɪᴍᴀɢᴇɴ ᴘᴇʀsᴏɴᴀʟɪᴢᴀᴅᴀ ฅ^•ﻌ•^ฅ⚘!!*\n*🍁Eғᴇᴄᴛᴏ: ${effect}*`, fakemsg)
+await conn.sendFile(m.chat, result.data, 'Error.jpg', `*Aϙᴜɪ́ ᴛɪᴇɴᴇs ᴛᴜ ɪᴍᴀɢᴇɴ ᴘᴇʀsᴏɴᴀʟɪᴢᴀᴅᴀ ฅ^•ﻌ•^ฅ⚘!!*\n*🍁Eғᴇᴄᴛᴏ: ${effect}*`, false)
 }
 handler.help = ['logos']
 handler.tags = ['maker']
