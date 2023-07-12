@@ -445,7 +445,7 @@ let url = await uploadImage(img)
 let images = `https://violetics.pw/api/photomaker/${encodeURIComponent(text)}?apikey=beta&image=${encodeURIComponent(url)}`
 let caption = `
 *🍀 Efecto:* ${text}`
-conn.sendButton(m.chat, caption, wm, images, [['🍂 Más Opciones', `${usedPrefix}phmakerlist`]], m)
+//conn.sendButton(m.chat, caption, wm, images, [['🍂 Más Opciones', `${usedPrefix}phmakerlist`]], m)
 }
 handler.help = ['phmaker']
 handler.tags = ['logo']
