@@ -22,7 +22,7 @@ let m2 = `
 
 ° 式 ⃟📬 Chats de Grupo : 17
 ° 式 ⃟🔐 Chats Privados : 31
-° 式 ⃟🎁 Chats Totales : *${chats.length}*
+° 式 ⃟🎁 Chats Totales : 12
 ° 式 ⃟👀 Auto Leer : Activado
 ° 式 ⃟📝 Escribiendo : Desactivado
 ° 式 ⃟🎙️ Grabando : Activado
