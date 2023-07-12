@@ -28,7 +28,7 @@ let buttonMessage= {
 {buttonId: `${usedPrefix}owner`, buttonText: {displayText: 'Owner🐢'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })*/
-await conn.reply(m.chat, `Hola @${m.sender.split`@`[0]} si necesitas la ayuda de mi creador porfavor escribele al privado\n*- Solo asuntos importantes -*`, estilo, { mentions: [m.sender] })
+await conn.reply(m.chat, `Hola @${m.sender.split`@`[0]} si necesitas la ayuda de mi creador porfavor escribele al privado\n*- Solo asuntos importantes -*`, false, { mentions: [m.sender] })
 let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;ī.am/☪︎Jacksito🍃/ღᴀ;;;\nFN:ī.am/☪︎Jacksito🍃/ღᴀ\nORG:ī.am/☪︎Jacksito🍃/ღᴀ\nTITLE:\nitem1.TEL;waid=18295176783:+18295176783\nitem1.X-ABLabel:ī.am/☪︎Jacksito🍃/ღᴀ\nX-WA-BIZ-DESCRIPTION:🐱Creador oficial de IdyBot.\nX-WA-BIZ-NAME:ī.am/☪︎Jacksito🍃/ღᴀ\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: 'ī.am/☪︎Jacksito🍃/ღᴀ', contacts: [{ vcard }] }}, {quoted: m})
 }
