@@ -6,7 +6,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡          <INFO DEL BOT + />
 
-*Experiencia ➟* ${exp}
+*Pg ➟* ${user}
 
  👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ 
  
