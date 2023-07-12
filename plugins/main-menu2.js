@@ -6,6 +6,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡          <INFO DEL BOT + />
 
+let user = global.db.data.users[who]
 *💎Diamantes* : _${user.diamond}_
 
  👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ 
