@@ -4,10 +4,10 @@ import fetch from 'node-fetch'
 let handler = async function (m, { conn, text, usedPrefix }) {
   
 let m2 = `
-≡ <INFO DEL BOT + />
+≡      <INFO DEL BOT + />
 
-
-° 式 ⃟👨‍💻 Creador : @⁨Future Botに公式⁩
+ 👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ *%name*
+° 式 ⃟👨‍💻 Creador : @⁨Jacksitoに公式⁩
 ° 式 ⃟🔣 Prefix : Multi Prefix
 ° 式 ⃟🕰️ Runtime : 00h : 08m : 23s
 ° 式 ⃟⏰ Runtime os : 00h : 49m : 51s
@@ -67,7 +67,7 @@ error por favor reportar con el comando .report
 
     let pp = './src/fg_logo.jpg' 
     conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
-       
+  m.react('📚')     
    
 }
 
