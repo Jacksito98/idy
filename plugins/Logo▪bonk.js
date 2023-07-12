@@ -12,7 +12,7 @@ let handler = async (m, { conn, text }) => {
 		await m.reply(global.wait)
 	conn.sendMessage(m.chat, { image: bonk }, { quoted: m })
 }
-handler.tags = ['logo']
+handler.tags = ['maker']
 handler.command = handler.help = ['bonk']
 handler.register = true
 
