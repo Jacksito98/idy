@@ -6,7 +6,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡      <INFO DEL BOT + />
 
- 👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ @${who.split('@')[0]}
+ 👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ ${name}
 ° 式 ⃟👨‍💻 Creador : @⁨Jacksitoに公式⁩
 ° 式 ⃟🔣 Prefix : Multi Prefix
 ° 式 ⃟🕰️ Runtime : 00h : 08m : 23s
