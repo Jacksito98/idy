@@ -6,7 +6,8 @@ Formato para uso:
 
 Ejemplo:
 #tts es Hola mundo 
-Por favor no abusar del tts ni mandas listas grandes para que diga el bot gracias :D es sancionable..
+
+ᴘᴏʀ ғᴀᴠᴏʀ ɴᴏ ᴀʙᴜsᴀʀ ᴅᴇʟ ᴛᴛs ɴɪ ᴍᴀɴᴅᴇs ʟɪsᴛᴀs ʟᴀʀɢᴀs ᴘᴀʀᴀ ǫᴜᴇ ᴅɪɢᴀ ᴇʟ ʙᴏᴛ ɢʀᴀᴄɪᴀs ｡^‿^｡ ᴛᴏᴅᴏ ᴇs sᴀɴᴄɪᴏɴᴀʙʟᴇ.. 🌿
 
 
 Lista de códigos: 
