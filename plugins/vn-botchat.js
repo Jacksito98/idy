@@ -5,7 +5,7 @@ ${pickRandom([` _Hola ${name}_\n\n_Estoy aquí_`, `_Si?👀_`, `_q te pasa_`, `_
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 }
-handler.customPrefix = /hay bot|al bot|elbot|el bot|haybot|ay bot|donde esta el bot/i
+handler.customPrefix = /hay bot|al bot|elbot|el bot|haybot/i
 handler.command = new RegExp
 
 export default handler
