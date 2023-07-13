@@ -12,7 +12,7 @@ let text
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw "Teksnya mana?\n\nContoh : .qc nanz"
+    } else throw "¿Dónde está el texto?\n\nEjemplo : .qc idy"
    if (!text) return m.reply('Teksnya mana?')
    if (text.length > 10000) return m.reply('Maximal 10000 karakter!')
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.ibb.co/3Fh9V6p/avatar-contact.png')
