@@ -2,7 +2,7 @@ import util from 'util'
 import path from 'path'
 
 let handler = async (m, { conn }) => {
-let vn = './src/stikers/queWe.webp'
+let sticker = './src/stikers/queWe.webp'
 conn.sendFile(m.chat, vn, 'queWe.webp', null, m, true, {
 type: 'stiskers', 
 ptt: true
