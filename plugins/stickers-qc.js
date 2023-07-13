@@ -13,8 +13,8 @@ let text
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
     } else throw "¿Dónde está el texto?\n\nEjemplo : .qc idy"
-   if (!text) return m.reply('Teksnya mana?')
-   if (text.length > 10000) return m.reply('Maximal 10000 karakter!')
+   if (!text) return m.reply('¿Dónde está el texto?')
+   if (text.length > 10000) return m.reply('¡Máximo 10000 caracteres!')
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.ibb.co/3Fh9V6p/avatar-contact.png')
 
    const obj = {
