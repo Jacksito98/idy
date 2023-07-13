@@ -17,8 +17,8 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
 }
-handler.help = ['getpp @user']
-handler.tags = ['group']
+handler.help = ['Minovio/Minovia @user']
+handler.tags = ['fun']
 handler.command = /^minovio|minovia$/i
 
 handler.group = true
