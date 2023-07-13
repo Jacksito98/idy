@@ -157,7 +157,7 @@ conn.sendMessage(m.chat, {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: "©乂  ＩＤＹ ٩(˘◡˘)۶ B O T Z",
+title: "乂 ©ＩＤＹ ٩(˘◡˘)۶ B O T Z",
 body: "",
 thumbnailUrl: "https://i.ibb.co/xHqPNmQ/20230627-231554.jpg",
 sourceUrl: "",
