@@ -26,7 +26,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'idy┃ᴮᴼᵀ' 
-global.author = ':3' 
+global.author = '@wx_j4ck' 
 global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/wx_j4ck\n' 
 global.dygp = 'https://www.instagram.com/wx_j4ck'
 global.fgsc = 'https://github.com' 
