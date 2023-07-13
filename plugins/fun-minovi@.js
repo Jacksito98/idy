@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, usedPrefix }) => {
 
-  if (!text) return conn.reply(m.chat, 'Etiqueta a tu nv xd', m)
+  if (!text) return conn.reply(m.chat, 'Etiqueta a tu nv, la foto tiene que estar publica o tiene que tener :D', m)
 
   let pp = './src/avatar_contact.png'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
