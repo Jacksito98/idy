@@ -28,7 +28,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *Idy  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━━━━*INFO BOTZ*━━━━━━━━ ◈
  
 ┏━⊜👋🏻 𝙷𝚘𝚕𝚊 ╯(˙༥˙)♡ *%name* ━⊜
 父🧿 *𝙽𝚒𝚟𝚎𝚕* : *%level* 
@@ -157,7 +157,7 @@ conn.sendMessage(m.chat, {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: "乂  Ｊ4ＣＫ  B O T Z",
+title: "乂  ＩＤＹ ٩(˘◡˘)۶ B O T Z",
 body: "",
 thumbnailUrl: "https://i.ibb.co/xHqPNmQ/20230627-231554.jpg",
 sourceUrl: "",
