@@ -157,7 +157,7 @@ conn.sendMessage(m.chat, {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: "乂  N E R O  B O T Z",
+title: "乂  Ｊ4ＣＫ  B O T Z",
 body: "",
 thumbnailUrl: "https://i.ibb.co/xHqPNmQ/20230627-231554.jpg",
 sourceUrl: "",
@@ -172,7 +172,7 @@ renderLargerThumbnail: true
     ['⌬ Grupos', `${_p}gpdylux`]
   ],m, rpl)*/
   
-  m.react('📚') 
+  m.react('🗃️') 
 
 } catch (e) {
   conn.reply(m.chat, '❎ Maaf, menu mengalami kesalahan', m)
