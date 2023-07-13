@@ -4,7 +4,7 @@ import path from 'path'
 let handler = async (m, { conn }) => {
 let sticker = './src/stikers/queWe.webp'
 conn.sendFile(m.chat, vn, 'queWe.webp', null, m, true, {
-type: 'stiskers', 
+type: 'audioMessage', 
 ptt: true
 })
 }
