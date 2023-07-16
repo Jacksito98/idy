@@ -29,8 +29,8 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/FG98F/dylux-fg
-$ cd dylux-fg
+$ git clone https://github.com/Jacksito98/idy
+$ cd idy
 $ npm i 
 $ npm start
 ```
