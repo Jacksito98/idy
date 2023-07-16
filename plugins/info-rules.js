@@ -44,7 +44,7 @@ _Cara penggunaan ${namebot} Agar terhindar dari Suspand_
 4. ${namebot} akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
 5. ${namebot} bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
 `
-  conn.send2ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `  ${htki} *RULES* ${htka}`, anu, 'Menu', '.menu', 'Owner', '.owner',)
+  //conn.send2ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `  ${htki} *RULES* ${htka}`, anu, 'Menu', '.menu', 'Owner', '.owner',)
 }
 handler.help = ['rules']
 handler.tags = ['main']
