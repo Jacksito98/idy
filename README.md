@@ -4,16 +4,11 @@
 
 ***
 ### Información
-- Cambie número de dueño en [Config](https://github.com/FG98F/dylux-fg/blob/main/config.js#L6)
-- Puede cambiar a la última versión de baileys editando el package.json [esta sección](https://github.com/FG98F/dylux-fg/blob/main/package.json#L42)
+- Cambie número de dueño en 
+- Puede cambiar a la última versión de baileys editando el package.json 
 
 ### FREE APIKEY
 -  [click aquí](https://api-fgmods.ddns.net)
-
-### Ejemplo 
-En caso de duda, antes de instalar dylux-bot, pruebe el bot aquí
-
-[![WhatsApp](https://img.shields.io/badge/DyLux-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://instabio.cc/fg98ff) 
 
 ***
 
