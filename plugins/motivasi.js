@@ -17,7 +17,7 @@ let motivasii = pickRandom(global.motivacion)
 }
 handler.help = ['motivacion']
 handler.tags = ['fun']
-handler.command = /^(motivacion)$/i
+handler.command = /^(motivacion|motivación)$/i
 
 export default handler
 
