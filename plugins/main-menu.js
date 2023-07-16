@@ -11,6 +11,7 @@ let tags = {
   'rg': 'REGISTRO',
   'sticker': 'STICKER',
   'img': 'IMAGEN',
+  'audio': 'AUDIO',
   'maker': 'MAKER',
   'prem': 'PREMIUM',
   'group': 'GRUPO',
