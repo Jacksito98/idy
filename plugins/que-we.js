@@ -17,5 +17,5 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 let stikerhuuu = [
- './src/stikers/queWe.webp',
+ './src/stikers/queWe.webp'
 ]
