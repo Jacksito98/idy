@@ -2,7 +2,7 @@ import { performance } from 'perf_hooks'
 
 let handler = async (m, { conn }) => {
 
- let start = `💻Comience a acelerar... Espere un momento`
+ let start = `💻Comienzo a acelerar... Espere un momento`
  let boost = `${pickRandom(['[▒▒▒▒▒▒▒▒▒▒]'])}`
  let boost2 = `${pickRandom(['[█▒▒▒▒▒▒▒▒▒]','[██▒▒▒▒▒▒▒▒]'])}`
  let boost3 = `${pickRandom(['[██▒▒▒▒▒▒▒▒]','[███▒▒▒▒▒▒▒▒]','[████▒▒▒▒▒▒▒]'])}`
@@ -26,8 +26,8 @@ let handler = async (m, { conn }) => {
 
      conn.reply(m.chat, finish,)
 }
-handler.help = ['boost', 'refresh']
-handler.tags = ['info']
+handler.help = ['boost']
+handler.tags = ['main']
 handler.command = /^boost|refresh/i
 
 
