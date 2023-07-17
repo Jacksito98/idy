@@ -11,7 +11,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['broadcast', 'bc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
-handler.command = /^(broadcast|bc)$/i
+handler.command = /^(broadcast|bc2)$/i
 
 handler.owner = true
 
