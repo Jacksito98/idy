@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let time = global.db.data.users[m.sender].lastwork + 3600000
    m.react(rwait)
   if (new Date - global.db.data.users[m.sender].lastwork < 3600000) throw `*🧘🏻‍♂️ Estas cansado* y por lo tanto hay que esperar *${msToTime(time - new Date())}* para volver a trabajar!`
-   m.react('📚')
+   m.react('👷🏽‍♂️')
 
     /*let w = await axios.get(global.API('fgmods', '/api/work', { }, 'apikey'))
     let res = w.data.result*/
