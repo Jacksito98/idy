@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text }) => {
-if (!text) throw `*Ingrese el @ o el nombre de la persona que quieras saber cuando le mide*`
+if (!text) throw `*Ingrese el @ o el nombre de la persona que quieras saber cuanto le mide 7w7*`
 let textoco = `
 *Le mide* *${Math.floor(Math.random() * 30)}Cm a* *${text}* 🥵😏
 `
