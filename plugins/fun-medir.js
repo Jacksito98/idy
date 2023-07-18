@@ -3,9 +3,9 @@ if (!text) throw `*Ingrese el @ o el nombre de la persona que quieras saber cuan
 let textoco = `
 *Le mide* *${Math.floor(Math.random() * 30)}Cm a* *${text}* 🥵😏
 `
-m.react('😏')
 m.reply(textoco, null, {mentions: conn.parseMention(textoco)})
 }
+m.react('😏')
 handler.help = ['medir @user']
 handler.tags = ['fun']
 handler.command = /^(medir)/i
