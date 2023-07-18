@@ -32,5 +32,4 @@ let stikerhuuu = [
 "https://telegra.ph/file/e529e13f0700f97931f75.jpg",
 "https://telegra.ph/file/07006374e1f95b15c9ee2.jpg",
 "https://telegra.ph/file/49ca496f428e35cabeec3.mp4",
-"https://telegra.ph/file/0538308b121cd3c7945db.mp4",
 ]
