@@ -6,6 +6,7 @@ let handler = async (m, { conn }) => {
   let time = global.db.data.users[m.sender].lastmiming + 14400000
   if (new Date - global.db.data.users[m.sender].lastmiming < 14400000) throw `⏳ _Espera_ *${msToTime(time - new Date())}* _para regresar a la mina_`
   global.db.data.users[m.sender].exp += hasil
+  m.react('⛏️')
   m.reply(`
 🎉 Genial! minaste *${hasil} XP*`)
   global.db.data.users[m.sender].lastmiming = new Date * 1
