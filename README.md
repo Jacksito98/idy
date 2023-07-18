@@ -23,7 +23,7 @@
 
 ### TERMUX
 1. 
-```sh
+```sh COMO INSTALAR IR PONIENDO COMANDO POR COMANDO 
 $ pkg upgrade -y && pkg update -y
 $ pkg install git -y
 $ pkg install nodejs -y
