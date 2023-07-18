@@ -5,7 +5,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
   let hasil = Math.floor(Math.random() * 2000)
   let time = global.db.data.users[m.sender].lastwork + 3600000
-   m.react(rwait)
   if (new Date - global.db.data.users[m.sender].lastwork < 3600000) throw `*🧘🏻‍♂️ Estas cansado* y por lo tanto hay que esperar *${msToTime(time - new Date())}* para volver a trabajar!`
    m.react('👷🏽‍♂️')
 
