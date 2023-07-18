@@ -15,6 +15,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
    global.db.data.users[who].exp -= rob
   
     m.reply(`
+    m.react('😈')
   ‣ Robaste *${rob} XP* a @${who.split`@`[0]}
   `, null, { mentions: [who] })
     global.db.data.users[m.sender].lastrob = new Date * 1
