@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
   global.db.data.users[m.sender].exp += hasil
   m.react('🎣')
   m.reply(`
-🎉 Genial! minaste *${hasil} XP*`)
+🎉 Genial! mientras pescabas en el rio encontraste *${hasil} XP*`)
   global.db.data.users[m.sender].lastpesc = new Date * 1
 }
 handler.help = ['pescar']
