@@ -21,9 +21,10 @@
 | **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
-### TERMUX
+### TERMUX 
+COMO INSTALAR IR PONIENDO COMANDO POR COMANDO
 1. 
-```sh COMO INSTALAR IR PONIENDO COMANDO POR COMANDO 
+```sh  
 $ pkg upgrade -y && pkg update -y
 $ pkg install git -y
 $ pkg install nodejs -y
