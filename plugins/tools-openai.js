@@ -1,18 +1,7 @@
 
 import cheerio from 'cheerio';
 import gpt from 'api-dylux';
-let handler = async(m) => {
-	conn.sendMessage(m.chat, {
-		text: text,
-		contextInfo: {
-		externalAdReply: {
-		title: "乂 ©ＩＤＹ ٩(˘◡˘)۶ B O T Z",
-		body: "",
-		thumbnailUrl: "https://i.ibb.co/xHqPNmQ/20230627-231554.jpg",
-		sourceUrl: "",
-		mediaType: 1,
-		renderLargerThumbnail: true
-		}}}, { quoted: m})	
+let handler = async (m, { conn, text }) => {
 	
 if (!text) throw `✳️ Ingresa el texto`;
 m.react('💬')
