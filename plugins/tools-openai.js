@@ -1,7 +1,7 @@
 
 import cheerio from 'cheerio';
 import gpt from 'api-dylux';
-let handler = async (m, { conn, text }) => {
+let handler = async(m) => {
 	conn.sendMessage(m.chat, {
 		text: text,
 		contextInfo: {
