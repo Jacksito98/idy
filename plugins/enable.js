@@ -207,6 +207,7 @@ break
 ▢ nsfw
 ▢ onlylatinos
 ▢ antisticker
+▢ autosticker
 └───────────── 
 ┌─⊷ *USERS*
 ▢ autolevelup
