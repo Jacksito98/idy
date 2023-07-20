@@ -158,6 +158,14 @@ break
     }}
     chat.autosticker = isEnable          
     break
+   case 'restrict':
+   isAll = true
+   if (!isOwner) {
+   global.dfail('owner', m, conn)
+   throw false
+   }
+   bot.restrict = isEnable
+  break	  
 		
      
      case 'chatbot':
