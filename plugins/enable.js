@@ -164,15 +164,6 @@ break
       global.opts['pconly'] = isEnable
       break
       
-      case 'antispam':
-        isAll = true
-        if (!isOwner) {
-        global.dfail('owner', m, conn)
-        throw false
-        }
-        bot.antiSpam = isEnable
-        break
-
       
     case 'gponly':
     case 'onlygp':
