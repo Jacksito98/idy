@@ -82,6 +82,14 @@ break
     }
     chat.antiSticker = isEnable
      break
+case 'antispam':
+isAll = true
+if (!isOwner) {
+global.dfail('owner', m, conn)
+throw false
+}
+chat.antispam = isEnable
+break		  
 		  
 
     case 'document':
