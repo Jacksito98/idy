@@ -141,6 +141,16 @@ break
     isUser = true
      user.autolevelup = isEnable
      break
+		  
+    case 'autosticker':
+    if (m.isGroup) {
+    if (!(isAdmin || isOwner)) {
+     global.dfail('admin', m, conn)
+    throw false
+    }}
+    chat.autosticker = isEnable          
+    break
+		
      
      case 'chatbot':
      case 'autosimi':
