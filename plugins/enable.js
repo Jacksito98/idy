@@ -76,6 +76,13 @@ break
       }
       chat.delete = !isEnable
       break
+    case 'antisticker':
+    if (m.isGroup) {
+    if (!(isAdmin || isOwner)) return dfail('admin', m, conn)
+    }
+    chat.antiSticker = isEnable
+     break
+		  
 
     case 'document':
     case 'documento':
