@@ -196,6 +196,7 @@ break
 ▢ document
 ▢ nsfw
 ▢ onlylatinos
+▢ antisticker
 └───────────── 
 ┌─⊷ *USERS*
 ▢ autolevelup
