@@ -1,9 +1,7 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-  if (text) {
     await conn.groupUpdateSubject(m.chat, `${args.join(" ")}`);
     m.reply('✅ Cambio exitoso de nombre de grupo')
-  } else throw `✳️ Ingrese el nuevo nombre del grupo :D`
   }
   
   handler.help = ['setnamegp <text>']
