@@ -44,7 +44,7 @@ case "kickfantasmas":
        }
 break            
 }}
-handler.help = ['fantasmas','kickfantasmas]
+handler.help = ['fantasmas','kickfantasmas']
 handler.tags = ['group']
 handler.command = /^(fantasmas|kickfantasmas)$/i
 handler.group = handler.botAdmin = handler.admin = true
