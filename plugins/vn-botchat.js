@@ -1,7 +1,7 @@
 let handler  = async (m, { conn }) => {
 let name = conn.getName(m.sender)
 let teks = `
-${pickRandom([` _Hola ${name}_\n\n_Estoy aquí_`, `_Si?👀_`, `_q te pasa_`, `_que_`, `_q quieres_`, `que paso mirey`, `_q pasa conmigo_`, `klk mamaguevo`, `q pasa mi amor`])}
+${pickRandom([` _Hola ${name}_\n\n_Estoy aquí_`, `_Si?👀_`, `_q te pasa_`, `_que_`, `_q quieres_`, `que paso mireina`, `_q pasa conmigo_`, `klk mamaguevo`, `q pasa mi amor`,`q pasa mi rey`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 }
