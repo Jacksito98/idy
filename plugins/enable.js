@@ -174,6 +174,12 @@ break
       isUser = true
       user.chatbot = isEnable
      break
+   case 'viewonce':
+   if (m.isGroup) {
+   if (!(isAdmin || isOwner)) return dfail('admin', m, conn)
+   }
+   chat.viewonce = isEnable
+   break	  
      
     case 'restrict':
     case 'restringir':
