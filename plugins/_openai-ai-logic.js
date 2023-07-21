@@ -1,6 +1,6 @@
-var fetch = require('node-fetch');
-var util = require('util');
-var handler = async (m, {
+import cheerio from 'cheerio';
+import gpt from 'api-dylux';
+let handler = async (m, { conn, text }) => {
  text, 
  usedPrefix, 
  command
