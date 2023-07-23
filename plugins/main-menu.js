@@ -160,7 +160,7 @@ contextInfo: {
 externalAdReply: {
 title: "乂 ©ＩＤＹ ٩(˘◡˘)۶ B O T Z",
 body: "",
-thumbnailUrl: "https://telegra.ph/file/63868752c14c0913fbb36.jpg",
+thumbnailUrl: "https://telegra.ph/file/5e9193f07a545692504f0.gif",
 sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
