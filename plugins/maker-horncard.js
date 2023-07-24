@@ -4,7 +4,7 @@ conn.sendFile(m.chat, global.API('https://some-random-api.com', '/canvas/horny',
 avatar: await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
 }), 'hornycard.png', '🔥 𝙀𝙎𝙏𝘼 𝙇𝙄𝙎𝙏𝙊!!\nＩＤＹ-ＢＯＴ ˃ʍ˂⁩', m)
 }
-handler.help = ['horny2']
+handler.help = ['hornycard']
 handler.tags = ['maker'] 
 handler.command = /^(horny(card|license))$/i
 export default handler
