@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 import util from 'util';
+import gpt from 'api-dylux';
 var handler = async (m, {
  text, 
  usedPrefix, 
@@ -7,9 +8,10 @@ var handler = async (m, {
  }) => {
 if (!text) throw `¡Ingrese una pregunta!\n\n*Ejemplo:*Quien es el presidente de la republica dominicana? `
 await m.reply(wait)
-  var js = await fetch(API('lann', '/api/search/openai-chat', { text: `${text}`, apikey: lann }))
-var json = await js.json()
-try {
+  await m.reply(res.text)
+	} catch {
+		m.reply(`❎ Error: intenta más tarde`);
+	}
   await conn.sendMessage(m.chat, {
 text: json.message,
 contextInfo: {
