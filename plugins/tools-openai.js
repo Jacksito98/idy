@@ -7,7 +7,7 @@ var handler = async (m, {
  }) => {
 if (!text) throw `¡Ingrese una pregunta!\n\n*Ejemplo:*Quien es el presidente de la republica dominicana? `
 await m.reply(wait)
-  var js = await fetch(API('lann', '/api/search/openai-chat', { text: `${text}`, apikey: lann }))
+  var js = await fetch(API('syms', '/api/search/openai-chat', { text: `${text}`, apikey: syms }))
 var json = await js.json()
 try {
   await conn.sendMessage(m.chat, {
