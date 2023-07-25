@@ -34,6 +34,13 @@ global.fgyt = 'https://youtube.com'
 global.fgpyp = 'https://paypal.me'
 global.fglog = 'https://i.imgur.com/Owmb93c.png' 
 
+//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+//• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
+global.linkgc = 'https://chat.whatsapp.com/D2kkLywqKa0G3IfIm7eNf2'
+global.nycuser = 'https://github.com/ALBERTO9883'
+global.script = 'https://github.com/ALBERTO9883/NyanCatBot-MD'
+//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
