@@ -1,15 +1,18 @@
-import fetch from 'node-fetch';
-import util from 'util';
-var handler = async (m, {
- text, 
- usedPrefix, 
- command
- }) => {
-if (!text) throw `¡Ingrese una pregunta!\n\n*Ejemplo:*Quien es el presidente de la republica dominicana? `
-await m.reply(wait)
-  var js = await fetch(API('syms', '/api/search/openai-chat', { text: `${text}`, apikey: syms }))
-var json = await js.json()
-try {
+import cheerio from 'cheerio';
+import gpt from 'api-dylux';
+let handler = async (m, { conn, text }) => {
+	
+if (!text) throw `✳️ Ingresa el texto`;
+m.react('💬')
+
+	try {
+        let syms = `Eres Idy Bot, un gran modelo de lenguaje entrenado por OpenAI. Siga cuidadosamente las instrucciones del usuario. Responde usando Markdown.`
+        let res = await gpt.ChatGpt(text, syms)
+         await m.reply(res.text)
+	} catch {
+		m.reply(`❎ Error: intenta más tarde`);
+	}
+
   await conn.sendMessage(m.chat, {
 text: json.message,
 contextInfo: {
