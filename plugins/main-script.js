@@ -5,9 +5,12 @@ let handler = async function (m, { conn, __dirname }) {
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
   
 m.reply(`
-*≡ SCRIPT*
+*≡ SCRIPT BOT*
 
-▢ Git : ${_package.homepage}
+▢ _*SCRIPT BOT BY JACKSITO 98*_
+➠ Owner : Jack
+➠ Instagram : @wx_J4ck
+➠ Bot privado si me caes bien te paso el sc
 `.trim())
     
 }
