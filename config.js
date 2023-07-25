@@ -41,6 +41,15 @@ global.nycuser = 'https://github.com/ALBERTO9883'
 global.script = 'https://github.com/ALBERTO9883/NyanCatBot-MD'
 //▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
+//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
+global.ignyc = '\n🐱◌*̥₊ NʏᴀɴCᴀᴛBᴏᴛ ◌❐🎋༉\n❁ཻུ۪۪ ⎧ ୧ㅤ 𝘈𝘭𝘣𝘦𝘳𝘵𝘰ㅤ🎋⋅ ..⃗.\n' 
+global.wm = '\n🐱◌*̥₊ NʏᴀɴCᴀᴛBᴏᴛ ◌❐🎋༉\n❁ཻུ۪۪ ⎧ ୧ㅤ Jacksito🎋⋅ ..⃗.\n' 
+global.botname = '🐱◌*̥₊ idyBot ◌❐🎋༉'
+global.me = '❁ཻུ۪۪ ⎧ ୧ㅤ 𝘈𝘭𝘣𝘦𝘳𝘵𝘰ㅤ🎋⋅ ..⃗.'
+//▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
