@@ -35,9 +35,6 @@ global.fgpyp = 'https://paypal.me'
 global.fglog = 'https://i.imgur.com/Owmb93c.png' 
 
 
-global.botname = '🐱◌*̥₊ NʏᴀɴCᴀᴛBᴏᴛ ◌❐🎋༉
-
-
 global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
