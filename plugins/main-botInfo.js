@@ -54,9 +54,10 @@ let infobt = `
 *≡ OWNER*
   *Jacksito*
 ▢ Instagram :
-  • https://instagram.com/jack_paymon
+  • https://instagram.com/wx_j4ck
 ▢ WhatsApp :
   • (escribe solo si es necesario) 
+  wa.mme/+12602000000
 ▢ GitHub :
   • https://github.com
 ▢ Telegram : 
