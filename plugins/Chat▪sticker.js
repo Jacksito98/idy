@@ -1,7 +1,7 @@
 //▪CÓDIGO BY ALBERTO9883 PRROS XD▪
 //▪NyanCatBot - MD▪
 
-import MessageType from '@whiskeysockets/baileys'
+import MessageType from 'npm:@queenanya/baileys2@6.4.1'
 import util from 'util'
 import fs from 'fs'
 import path from 'path'
