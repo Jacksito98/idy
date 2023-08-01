@@ -190,6 +190,15 @@ break
       }
       bot.restrict = isEnable
       break
+   case 'antiprivado':
+   isAll = true
+   if (!isROwner) {
+   global.dfail('rowner', m, conn)
+   throw false
+   }
+   bot.antiPrivate = isEnable
+   break
+		  
     
     case 'onlypv':
     case 'onlydm':
@@ -230,6 +239,7 @@ break
 ▢ onlylatinos
 ▢ antisticker
 ▢ autosticker
+▢ antiprivado
 └───────────── 
 ┌─⊷ *USERS*
 ▢ autolevelup
