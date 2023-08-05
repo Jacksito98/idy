@@ -93,7 +93,7 @@ const connectionOptions = {
 	    version,
         printQRInTerminal: true,
         auth: state,
-        browser: ['dylux-bot', 'Safari', '3.1.0'], 
+        browser: ['idy-bot', 'Safari', '3.1.0'], 
 	      patchMessageBeforeSending: (message) => {
                 const requiresPatch = !!(
                     message.buttonsMessage 
