@@ -1,5 +1,5 @@
 
-import { areJidsSameUser } from '@whiskeysockets/baileys'
+import { areJidsSameUser } from '@adiwajshing/baileys'
 
 let handler = async (m, { conn, args, participants }) => {
   let users = Object.entries(global.db.data.users).map(([key, value]) => {
