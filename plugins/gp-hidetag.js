@@ -1,4 +1,4 @@
-import MessageType from '@whiskeysockets/baileys'
+import MessageType from '@adiwajshing/baileys'
 import { generateWAMessageFromContent } from '@adiwajshing/baileys'
 
 let handler = async (m, { conn, text, participants }) => {
