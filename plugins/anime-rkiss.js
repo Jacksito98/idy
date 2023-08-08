@@ -1,7 +1,5 @@
 import fetch from 'node-fetch'
 import { sticker } from '../lib/sticker.js'
-//import db from '../lib/database.js'
-
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 	
 	 let who
