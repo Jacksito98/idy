@@ -60,6 +60,12 @@ _*${text.toUpperCase()}* *ES* *${(100).getRandom()}%* *${command.replace('how', 
 `.trim(), m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
+ if (command == 'cuero') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(100).getRandom()}%* *${command.replace('how', '').toUpperCase()} 𝗗𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘁𝗮𝗻 𝗰𝘂𝗲𝗿𝗼, 𝗰𝗿𝗲𝘁𝗮 𝗯𝗮𝗿𝗮𝘁𝗮 🫵🏼🫵🏼*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
 if (command == 'prostituta') {
 conn.reply(m.chat, `
 _*${text.toUpperCase()}* *ES* *${(100).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_
@@ -69,5 +75,5 @@ mentions: m.mentionedJid
 }
 handler.help = ['gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
 handler.tags = ['fun']
-handler.command = /^gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto/i
+handler.command = /^gay2|lesbiana|pajero|pajera|cuero|puto|puta|manco|manca|rata|prostituta|prostituto/i
 export default handler
